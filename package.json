@@ -1,0 +1,24 @@
+{
+  "name": "projectvue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve:json": "json-server --watch ./data/db.json --port 3001",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "swiper": "^8.4.7",
+    "vue": "^3.5.13",
+    "vue-awesome-swiper": "^5.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^6.2.1",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
